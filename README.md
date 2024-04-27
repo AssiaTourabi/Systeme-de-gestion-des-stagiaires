@@ -1,1 +1,11 @@
 # Systeme-de-gestion-des-stagiaires
+
+# DESCRIPTION DU PROJET
+
+Objectif est de créer une application de Gestion des stagiaires, est une application qui doit être utilisable par plusieurs et différents utilisateurs avec précision du droit d’accès de chacun en fonction de son poste. Les acteurs principaux de l’application sont : Administrateur DRH et le Chef de la DRH. Chacun de ces acteurs doit s’authentifier (Login et Mot de passe) pour avoir le droit de jouer ses rôles. Le mot de passe peut-être enregistré. L'inscription des stagiaires se fait en ligne. Le stagiaire saisit ses informations personnelles (prénom, nom, CIN, établissement, filière,adresse, e-mail, téléphone et date de naissance). Ces informations sont enregistrées dans la base de données. Après avoir l’accord, le cadre peut ajouter un stage au stagiaire ( le stage peut être affecté à plusieurs stagiaires) après l’inscription directement ou bien ultérieurement. Les informations qui doivent être enregistrées dans la base de données: le sujet du stage, le prénom et le nom de l’encadrant, la date de début et de fin du stage, la division, le type de stage lors de l’affectation. Il faut garder trace pour les stages déjà effectués.
+Le Chef de la DRH doit avoir le droit d’ajouter, modifier ou supprimer les stagiaires, les Encadrants et les Stages. L’administrateur DRH peut identifier un Stagiaire ou Encadrant, soit par son nom, soit par son CIN. Il peut aussi afficher les statistiques des département : le nombre actuel des Stagiaires (Nouveaux, En cours, En archive), le nombre de Stages 
+(Affectés et non Affectés) et le Nombre d’Encadrants (Affectés et non Affectés). L’utilisateur a aussi le droit de générer l’Attestation de stage et de l’imprimer. Cette tâche peut être 
+effectuée à l’aide du Nom et Prénom. Ce document comprend la période du stage qui contient les informations suivantes : le nom complet du stagiaire, le département où il a effectué son 
+stage. L’administrateur est le super utilisateur qui peut ajouter, supprimer et modifier les comptes d’utilisateurs. Il a le droit d’accéder aux différentes fonctionnalités d’un cadre. 
+Chaque compte est caractérisé par un nom d’utilisateur unique, un mot de passe et un type (Administrateur DRH, Chef DRH). Il a aussi la possibilité d’afficher l’archive des 
+Stages/Stagiaires
